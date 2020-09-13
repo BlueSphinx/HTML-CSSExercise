@@ -1,3 +1,3 @@
 # HTML-CSSExercise
 
-This is flex-box workshop homework.
+The flex-box workshop homework is located in 'exercise-5.html' file.
