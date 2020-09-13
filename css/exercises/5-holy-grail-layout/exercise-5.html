@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * 
+    {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .hcontainer
+    {
+      background-color: darkcyan;
+      height: 15vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fcontainer
+    {
+      background-color: khaki;
+      height: 15vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header
+    {
+      font-size: 1.5em; 
+      font-weight: bolder;  
+    }
+
+    .bcontainer
+    {
+      background-color: #ffffff;
+      height: 70vh;
+      display: flex;
+      border-style: solid;
+      border-color: white;
+    } 
+
+    .firstcolumn
+    {
+      background-color: #FF7F50;
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      border-style: solid;
+      border-color: white;
+    }
+
+    .secondcolumn
+    {
+      background-color: #FF7F50;
+      flex-grow: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-style: solid;
+      border-color: white;
+    }
+
+    .thirdcolumn
+    {
+      background-color: #FF7F50;
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-style: solid;
+      border-color: white;
+    }
+
+    .center,.right
+    {
+      font-size: 1.5em; 
+      font-weight: bolder;  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer
+    { 
+      font-weight: bolder;  
+    }
+
+    .menu123
+    {
+      width: 100%;
+      background: white;
+      border-style: solid;
+      border-color: #FF7F50;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .menu-left
+    {
+      font-size: 1.5em; 
+      font-weight: bolder; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu
+    {
+      width: 100%;
+    }
+
+
+
+
+
+  
+
+    
+
+  </style>
+  <title>Holy Grail Layout</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+    <body>
+
+      <div class="hcontainer">
+        <span class="header">Header</span>
+      </div>
+
+      <div class="bcontainer">
+
+        <div class="firstcolumn">
+          <div class="menu">
+            <div class="menu-left">Menu</div>
+            <div class="menu123">Menu 1</div>
+            <div class="menu123">Menu 2</div>
+            <div class="menu123">Menu 3</div>
+           </div>
+        </div>
+        <div class="secondcolumn">
+          <div class="hello">
+            <span class="center">ดีจ้า</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/White_and_yellow_flower.JPG"  alt="rose" width="200" height="200">
+          </div>
+        </div>
+        <div class="thirdcolumn">
+          <div class="clip">
+            <span class="right">Ads</span>
+            <br>
+            <video width="350" height="150" controls><source src="https://www.youtube.com/watch?v=aj6Krdm9kII"></video>
+            <br>
+            <video width="350" height="150" controls><source src="https://www.youtube.com/watch?v=aj6Krdm9kII"></video>
+          </div>
+        </div>
+
+      </div>
+      
+
+      <div class="fcontainer">
+        <span class="footer">Footer</span>
+      </div>
+
+    </body>
+</html>
