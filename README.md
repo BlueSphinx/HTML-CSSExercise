@@ -1,3 +1,3 @@
 # HTML-CSSExercise
 
-This flex-box workshop homework.
+This is flex-box workshop homework.
